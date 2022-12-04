@@ -14,8 +14,71 @@ body {
     font-weight: 700;
 }
 
+.small-font {
+    font-size: 14px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.std-font {
+    font-size: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.med-font {
+    font-size: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.big-font {
+    font-size: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.mg-16 {
+    margin-top: 16px;
+}
+
+.mg-57 {
+    margin-top: 57px;
+}
+
+.mg-100 {
+    margin-top: 100px;
+}
+
+.mgbtm-87 {
+    margin-bottom: 87px;
+}
+
+
+
 .hitam {
     color: black;
+}
+.font-check {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .font-tebal {
@@ -27,10 +90,8 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
- 
 
-
-color: #000000;
+    color: #000000;
 }
 
 .nav {
@@ -53,42 +114,38 @@ color: #000000;
   }
 
 .sewa .card {
-min-width: 80%;
-min-height: 326px;
+    min-width: 80%;
+    min-height: 326px;
 }
 .sewa .card .card-body {
-background-color: #0d28a6;
-border-radius: 5px;
-padding-top: 50px;
-padding-bottom: 50px;
-padding-left: 50px;
-padding-right: 50px;
+    background-color: #0d28a6;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .sewa .card .card-body .card-title {
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 640;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 640;
 }
 
 .btn-sewa {
-background-color: #5cb85f;
-padding: 10px 35px;
-border-radius: 5px;
-border-color: transparent;
-color: #fff;
-font-weight: 640;
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
+    background-color: #5cb85f;
+    padding: 10px 35px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial;
+    text-decoration: none;
 }
+
 .btn-sewa:hover {
-background-color: #5cb85f;
-padding: 10px 35px;
-border-radius: 5px;
-border-color: transparent;
-color: rgb(211, 211, 211);
-font-weight: 640;
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
+    background-color: #5cb85f;
+    color: rgb(211, 211, 211);
+
 }
 
 .accordion-header {
@@ -107,3 +164,19 @@ text-decoration: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
+
+@media screen and (max-width: 450px) {
+    .med-font {
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+ /*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+    .container {
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
