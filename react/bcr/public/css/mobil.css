@@ -1,0 +1,35 @@
+body {
+    width: 1440px;
+    height: auto;
+}
+
+.med-font {
+    font-size: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.bgheader {
+    position: relative;
+    width: 1200px;
+    height: 745px;
+
+    top: 0px;
+}
+
+.btn1 {
+    background-color: #0D28A6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    color: white;
+    position: absolute;
+    width: 370px;
+    height: 36px;
+
+}

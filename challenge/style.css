@@ -1,16 +1,83 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
 .container2 {
-    background-color: #F1F3FF;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
     font-family: Arial;
+    transition: background-color .5s;
+}
+
+.nav-text {
+    width: 81px;
+    height: 20px;
+    margin-top: 24px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .tengah {
     align-items: center;
+    justify-content: center;
 }
 
-.tebal {
+.w400 {
+    font-weight: 400;
+}
+
+.w700 {
     font-weight: 700;
 }
 
@@ -62,11 +129,19 @@ body {
     margin-bottom: 87px;
 }
 
+.margin-32 {
+    margin: 32px;
+}
 
 
 .hitam {
     color: black;
 }
+
+div a {
+    color: black;
+}
+
 .font-check {
     font-family: 'Arial';
     font-style: normal;
@@ -81,25 +156,12 @@ body {
     flex-grow: 0;
 }
 
-.font-tebal {
-    width: 261px;
-    height: 20px;
-
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-
-    color: #000000;
-}
-
 .nav {
     background-color: #F1F3FF;
 }
 
 .navbar li {
-    padding: 0 15px;
+    padding: 0 12px;
     margin-right: 20px;
 }
 
@@ -148,6 +210,7 @@ body {
 
 }
 
+
 .accordion-header {
     border: 2px;
     border-color: black;
@@ -160,6 +223,7 @@ body {
     background-color: #fff0;
   }
 
+
 .modal-content{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
@@ -170,6 +234,16 @@ body {
         justify-content: center;
         align-items: center;
     }
+
+    .img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modal-body {
+        display: flex;
+    }
  }
 
  /*untuk layar device berukuran besar*/
@@ -179,4 +253,6 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+
  }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Binar Car Rental - Detail</title>
+    <link rel="stylesheet" href="detailstyle.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section style="background-color: #F1F3FF">
+      <div class="container">
+
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-sm bg-transparent">
+          <div class="container">
+              <a class="navbar-brand" href="javascript:void(0)">
+                <img class="img-fluid" src="assets/logo.png" alt="">
+              </a>
+    
+              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" alt="tombol1">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              </button>
+    
+            <div class="collapse navbar-collapse flex-grow-0" id="">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link w400 hitam" href="#ourServices">Our Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link w400 hitam" href="#whyUs">Why Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link w400 hitam" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link w400 hitam" href="#faq">FAQ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--Navbar End-->
+
+        <!--Sidenav-->
+        <div id="mynavbar" class="sidenav">
+
+          <a href="home" class="w700 text-dark">BCR</a><span><a href="" class="closebtn" onclick="closeNav()">&times;</a></span>
+          <a href="#ourServices">Our Services</a>
+          <a href="#whyUs">Why Us</a>
+          <a href="#testimonial">Testimonial</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <!--Sidenav-->
+
+        <div class="row align-items-center flex-column flex-md-row mg-57">
+            <div class="row align-items-center flex-column flex-md-row">
+              <div class="col">
+                <h1 class="w700 big-font py-3">Sewa & Rental Mobil Terbaik di kawasan Yogyakarta</h1>
+                <p class="w700 small-font mg-16">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas 
+                  terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+            </div>
+
+            <div class="col p-0 text-end">
+              <img class="w-100" src="assets/gambarmobil.png" alt="car">
+            </div>
+        </div>
+      </div>
+
+    </section>
+ 
+    <div class="card position-relative top-100 start-50 translate-middle mt-4" style="width: 1000px">
+      <div class="card-body">
+        <p class="card-title"><b>Pencarianmu</b></p>
+        <form action="">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <div class="form-group">
+                <label for="namaMobil" class="form-label">Nama Mobil</label>
+                <input type="text" placeholder="Ketik Nama/tipe mobil" class="form-control" id="namaMobil" disabled />
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-group">
+                <label for="kategoriMobil" class="form-label">Kategori</label>
+                <select id="kategoriMobil" class="form-select" aria-label="Default select example" disabled>
+                  <option selected>Masukkan Kapasitas Mobil</option>
+                  <option value="2-4 Orang">2-4 Orang</option>
+                  <option value="4-6 Orang">4-6 Orang</option>
+                  <option value="6-8 Orang">6-8 Orang</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-group">
+                <label for="hargaMobil" class="form-label">Harga</label>
+                <select id="hargaMobil" class="form-select" aria-label="Default select example" disabled>
+                  <option selected>Masukkan Harga Sewa per Hari</option>
+                  <option value="< 400.000">< Rp.400.000</option>
+                  <option value="400.000 - 600.000">Rp.400.000 - Rp.600.000</option>
+                  <option value="> 600.000">> Rp.600.000</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="form-group">
+                <label for="statusMobil" class="form-label">Status</label>
+                <select id="statusMobil" class="form-select" aria-label="Default select example" disabled>
+                  <option selected>Status Mobil</option>
+                  <option value="Disewa">Disewa</option>
+                  <option value="Belum Disewa">Belum Disewa</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-2">
+              <button type="button" class="btn-sewa mt-4">Cari Mobil</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="container" style="margin-top: 90px">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="footer" style="font-weight: 700">
+              Jalan Suroyo No. 161 Mayangan Kota <br />Probolonggo 672000 <br /><br />
+              binarcarrental@gmail.com <br /><br />
+              081-233-334-808
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p class="footer">
+              Our Services <br /><br />
+              Why Us <br /><br />
+              Testimonial <br /><br />
+              FAQ
+            </p>
+          </div>
+          <div class="col-lg-3" style="font-weight: 700">
+            <p class="footer">
+              Connect with us <br /><br />
+              <img src="assets/fb.png" width="30" height="30" style="margin-bottom: 20px" />
+              <img src="assets/ig.png" width="30" height="30" style="margin-bottom: 20px; margin-left: 12px" />
+              <img src="assets/twitter.png" width="30" height="30" style="margin-bottom: 20px; margin-left: 12px" />
+              <img src="assets/mail.png" width="30" height="30" style="margin-bottom: 20px; margin-left: 12px" />
+              <img src="assets/twitch.png" width="30" height="30" style="margin-bottom: 20px; margin-left: 12px" />
+            </p>
+          </div>
+          <div class="col-lg-3" style="font-weight: 700">
+            <p class="footer">
+              Copyright Binar 2022 <br /><br />
+              <img src="img/logo.png" alt="" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

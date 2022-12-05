@@ -1,0 +1,318 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.container2 {
+    background-color: #F1F3FF;
+}
+
+.headercolor {
+    background-color: #F1F3FF;
+}
+
+body {
+    font-family: Arial;
+}
+
+.nav-text {
+    width: 81px;
+    height: 20px;
+    margin-top: 24px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* identical to box height, or 143% */
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tengah {
+    align-items: center;
+    justify-content: center;
+}
+
+.w400 {
+    font-weight: 400;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.small-font {
+    font-size: 14px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.std-font {
+    font-size: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.med-font {
+    font-size: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.big-font {
+    font-size: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.mg-16 {
+    margin-top: 16px;
+}
+
+.mg-57 {
+    margin-top: 57px;
+}
+
+.mg-100 {
+    margin-top: 100px;
+}
+
+.mgbtm-87 {
+    margin-bottom: 87px;
+}
+
+.margin-32 {
+    margin: 32px;
+}
+
+
+.hitam {
+    color: black;
+}
+
+.card-fitur{
+    width: 619px;
+    height: 270px;
+    background: #F1F3FF;
+    /* Shadow/Low */
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.font-check {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nav {
+    background-color: #F1F3FF;
+}
+
+.navbar li {
+    padding: 0 12px;
+    margin-right: 20px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    grid-column: span 8;
+    margin: 10px 0;
+    border-radius: 8px;
+    position: relative;
+  
+  }
+
+.sewa .card {
+    min-width: 80%;
+    min-height: 326px;
+}
+.sewa .card .card-body {
+    background-color: #0d28a6;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sewa .card .card-body .card-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 640;
+}
+
+.btn-sewa {
+    background-color: #5cb85f;
+    padding: 10px 35px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.btn-sewa:hover {
+    background-color: #5cb85f;
+    color: rgb(211, 211, 211);
+
+}
+
+.btn-sewa2 {
+    background-color: #5cb85f;
+    padding: 6px 10px;
+    border-radius: 2px;
+    width: 100%;
+    align-items: center;
+    flex: auto;
+    flex-direction: column;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Arial;
+    justify-content: center;
+    text-decoration: none;
+  
+  }
+  
+  .btn-sewa2:hover {
+    background-color: #5cb85f;
+    color: rgb(211, 211, 211);
+  
+  }
+
+  .btn-1 {
+    background-color: #ffffff;
+    padding: 4px 4px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #0D28A6;
+    font-weight: 500;
+    font-family: Arial;
+    text-decoration: none;
+    border: 2px #0D28A6 solid;
+  }
+  .btn-1:hover {
+    background-color: #0D28A6;
+    padding: 4px 4px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Arial;
+    text-decoration: none;
+    border: 2px #0D28A6 solid;
+  }
+
+
+.accordion-header {
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+  }
+  .accordion-item {
+    margin-bottom: 15px;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button {
+    background-color: #fff0;
+  }
+
+.modal-content{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 450px) {
+    .med-font {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-group {
+        display: none;
+    }
+
+    modalterbang {
+        display: none;
+    }
+
+    exampleModal {
+        display: none;
+    }
+
+    .modal-content {
+        display: none;
+    }
+ }
+
+ /*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+    .container {
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+ }
